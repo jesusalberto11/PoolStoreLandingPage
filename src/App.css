@@ -1,0 +1,28 @@
+.header-m1 {
+  font-size: 26px;
+  font-weight: bold;
+  color: black;
+}
+
+.section-container {
+  width: 100%;
+
+  background-color: var(--PRIMARY);
+  height: auto;
+}
+
+.section-header {
+  color: var(--WHITE-FONT);
+  font-size: 36px;
+}
+
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  height: 60px;
+  width: auto;
+}

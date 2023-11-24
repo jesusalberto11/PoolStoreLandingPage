@@ -1,0 +1,48 @@
+@font-face {
+  font-display: swap;
+  font-family: "Open Sans";
+  src: url("../public/fonts/OpenSans-Regular.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+hr {
+  height: 0;
+  margin: 0 15px;
+
+  border: 0px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+:root {
+  font-family: "Open Sans", Inter, system-ui, Avenir, Helvetica, Arial,
+    sans-serif;
+
+  --PRIMARY: #00509d;
+  --SECONDARY: #ffff;
+
+  --BLACK-FONT: #000;
+  --WHITE-FONT: #fff;
+
+  --SECTION-HEADER-1: #03045e;
+  --SECTION-HEADER-2: #0077b6;
+
+  --SIDEBAR-BG-COLOR: #fff;
+  --CLOSE-ZONE-BG-COLOR: #000;
+
+  --SUCCESS-BTN: #0a9396;
+  --SUCCESS-BTN-HOVER: #005f73;
+  --SIMPLE-BUTTON: #023e8a;
+  --SIMPLE-BUTTON-HOVER: #0077b6;
+  --NAV-BUTTON-HOVER: #48cae4;
+
+  --INPUT-FOCUS: #0a9396;
+
+  --REVIEW-ITEM-BG-COLOR: #eaf4f4;
+}

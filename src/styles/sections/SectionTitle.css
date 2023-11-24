@@ -1,0 +1,18 @@
+.section-header {
+  width: 100%;
+  text-align: center;
+}
+
+.section-header-title-1 {
+  font-weight: bolder;
+  text-transform: uppercase;
+
+  color: var(--SECTION-HEADER-1);
+}
+
+.section-header-title-2 {
+  font-weight: bolder;
+  text-transform: uppercase;
+
+  color: var(--SECTION-HEADER-2);
+}

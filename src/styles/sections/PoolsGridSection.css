@@ -1,0 +1,32 @@
+.pools-grid-columns {
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.pools-grid-columns img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+
+  border-radius: 5px;
+}
+
+.pools-grid-rows {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .pools-grid-columns {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  .pools-grid-columns img {
+    height: 150px;
+    width: 100%;
+  }
+}

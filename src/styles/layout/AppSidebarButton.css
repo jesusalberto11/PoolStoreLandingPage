@@ -1,0 +1,38 @@
+.sidebar-button-container {
+  height: 35px;
+  width: 100%;
+
+  list-style: none;
+}
+
+.sidebar-button {
+  cursor: pointer;
+
+  background-color: var(--PRIMARY);
+
+  height: 100%;
+  width: 100%;
+
+  border-radius: 5px;
+  padding: 5px 10px;
+
+  transition: all 0.2s;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.sidebar-button-container a {
+  color: var(--WHITE-FONT);
+
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.sidebar-button:hover {
+  background-color: var(--NAV-BUTTON-HOVER);
+  color: var(--WHITE-FONT);
+
+  padding-left: 20px;
+}

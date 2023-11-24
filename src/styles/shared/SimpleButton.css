@@ -1,0 +1,23 @@
+.simple-button {
+  cursor: pointer;
+
+  height: 35px;
+  min-width: 35px;
+
+  background-color: var(--SIMPLE-BUTTON);
+
+  border: none;
+  border-radius: 5px;
+
+  transition: all 0.2s;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.simple-button:hover {
+  background-color: var(--SIMPLE-BUTTON-HOVER);
+}
