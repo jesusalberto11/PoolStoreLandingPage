@@ -1,7 +1,7 @@
 import React from "react";
-import "../../styles/sections/PoolsGridSection.css";
-import CommonSection from "./CommonSection";
-import SectionTitle from "./SectionTitle";
+import "../../../styles/sections/PoolGridSection/PoolsGridSection.css";
+import CommonSection from "../CommonSection";
+import SectionTitle from "../SectionTitle";
 
 const PoolsGridSection = () => {
   return (
