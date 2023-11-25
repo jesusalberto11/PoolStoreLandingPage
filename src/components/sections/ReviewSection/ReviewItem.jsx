@@ -8,12 +8,13 @@ const ReviewItem = ({ imgSource, alt, username, description, rating }) => {
         <img src={imgSource} alt={alt} className="user-review-img" />
         <div className="review-header-right-side">
           <p className="review-username">{username}</p>
-          <div>{rating}</div>
-          {[...Array(rating)].map((e, i) => (
-            <span className="busterCards" key={i}>
-              ♦
-            </span>
-          ))}
+          <div className="rating-container">
+            {[...Array(rating)].map((e, i) => (
+              <div className="star" key={i}>
+                ★
+              </div>
+            ))}
+          </div>
         </div>
       </div>
       <p className="user-review-description">{description}</p>
