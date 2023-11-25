@@ -1,6 +1,6 @@
 import React from "react";
-import "../../styles/sections/FormSection.css";
-import CommonSection from "./CommonSection";
+import "../../../styles/sections/FormSection/FormSection.css";
+import CommonSection from "../CommonSection";
 
 const FormSection = () => {
   return (
