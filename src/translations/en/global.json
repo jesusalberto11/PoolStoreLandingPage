@@ -1,0 +1,58 @@
+{
+  "HEADER": {
+    "NAV-BUTTON-HOME": "HOME",
+    "NAV-BUTTON-SERVICES": "SERVICES",
+    "NAV-BUTTON-REVIEWS": "REVIEWS",
+    "NAV-BUTTON-CONTACT": "CONTACT",
+    "OPEN-SIDEBAR-BUTTON-TITLE": "Open sidebar",
+    "CLOSE-SIDEBAR-BUTTON-TITLE": "Close sidebar"
+  },
+  "FOOTER": {
+    "ABOUT-US-TITLE": "ABOUT US",
+    "ABOUT-US-DESCRIPTION": "We are leaders in the creation, repair, remodeling, and protection of pools throughout Colombia. Nestled in the heart of the country, we take pride in offering innovative services that will transform your aquatic space into an oasis of serenity and fun.",
+    "GENERAL-INFO": "GENERAL INFORMATION",
+    "MEET-US": "Meet us",
+    "FREQUENT-QUESTIONS": "Frequently Asked Questions",
+    "PRIVACY-POLICY": "Privacy Policy",
+    "PQRS": "PQRS",
+    "CONTACT-TITLE": "CONTACT",
+    "LANDLINE-PHONE": "Landline Phone:",
+    "PHONE": "Mobile:",
+    "WHATSAAP": "WhatsApp:",
+    "FACEBOOK-BUTTON-DATA": "Button to go to our Facebook page",
+    "WHATSAAP-BUTTON-DATA": "Button to go to our WhatsApp chat",
+    "INSTAGRAM-BUTTON-DATA": "Button to go to our Instagram page",
+    "TWITTER-BUTTON-DATA": "Button to go to our Twitter page"
+  },
+  "MAIN-SECTION": {
+    "MAIN-SECTION-TITLE": "More than 10 years in quality and experience in pools",
+    "MAIN-SECTION-SUBTITLE": "We specialize in building the pool of your dreams in 60 days or less",
+    "CONTACT-BUTTON-TITLE": "Request your quote"
+  },
+  "POOL-GRID-SECTION": {
+    "FIRST-TITLE": "EXCELLENCE AND QUALITY",
+    "SECOND-TITLE": "Our Philosophy",
+    "FIRST-IMG-DATA": "A beautiful quartz pool next to a rock staircase",
+    "SECOND-IMG-DATA": "A stunning wooden pool",
+    "THIRD-IMG-DATA": "A beautiful pool with a small rock waterfall",
+    "FOUR-IMG-DATA": "A gorgeous pool in a beautiful backyard"
+  },
+  "SERVICES-SECTION": {
+    "FIRST-TITLE": "Our",
+    "SECOND-TITLE": "Services"
+  },
+  "REVIEWS-SECTION": {
+    "FIRST-TITLE": "Our happy",
+    "SECOND-TITLE": "customers"
+  },
+  "CONTACT-SECTION": {
+    "FIRST-TITLE": "Contact Us",
+    "NAME-PLACEHOLDER": "Enter your name*",
+    "EMAIL-PLACEHOLDER": "Enter your email*",
+    "TEXTAREA-PLACEHOLDER": "Message body*",
+    "BUTTON-TITLE": "Send your message",
+    "BUTTON-TEXT": "Send",
+    "IMG-DATA": "Image of a pool under construction",
+    "IMG-SUBTITLE": "More than pools, they are memories. Leave it in our hands, and we will make it a reality."
+  }
+}

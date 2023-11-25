@@ -1,0 +1,58 @@
+{
+  "HEADER": {
+    "NAV-BUTTON-HOME": "INICIO",
+    "NAV-BUTTON-SERVICES": "SERVICIOS",
+    "NAV-BUTTON-REVIEWS": "TESTIMONIOS",
+    "NAV-BUTTON-CONTACT": "CONTACTO",
+    "OPEN-SIDEBAR-BUTTON-TITLE": "Abrir menú de navegación",
+    "CLOSE-SIDEBAR-BUTTON-TITLE": "Cerrar menú de navegación"
+  },
+  "FOOTER": {
+    "ABOUT-US-TITLE": "SOBRE NOSOTROS",
+    "ABOUT-US-DESCRIPTION": "Somos lideres en la creación, reparación, remodelación y protección de piscinas en todo Colombia. Enclavados en el corazón del país, nos enorgullece ofrecer servicios innovadores que transformarán tu espacio acuático en un oasis de serenidad y diversión.",
+    "GENERAL-INFO": "INFORMACIÓN GENERAL",
+    "MEET-US": "Conócenos",
+    "FREQUENT-QUESTIONS": "Preguntas frecuentes",
+    "PRIVACY-POLICY": "Privacy Policy",
+    "PQRS": "PQRS",
+    "CONTACT-TITLE": "CONTACTO",
+    "LANDLINE-PHONE": "Teléfono Fijo:",
+    "PHONE": "Móvil:",
+    "WHATSAAP": "WhatsApp:",
+    "FACEBOOK-BUTTON-DATA": "Botón de ir a nuestra pagina de Facebook",
+    "WHATSAAP-BUTTON-DATA": "Botón de ir a nuestro chat de Whatsaap",
+    "INSTAGRAM-BUTTON-DATA": "Botón de ir a nuestra pagina de Instagram",
+    "TWITTER-BUTTON-DATA": "Botón de ir a nuestra pagina de Twitter"
+  },
+  "MAIN-SECTION": {
+    "MAIN-SECTION-TITLE": "Más de 10 años en calidad y experiencia en piscinas",
+    "MAIN-SECTION-SUBTITLE": "Nos encargamos de construir la piscina de tus sueños en 60 días o menos",
+    "CONTACT-BUTTON-TITLE": "Solicita tu cotización"
+  },
+  "POOL-GRID-SECTION": {
+    "FIRST-TITLE": "EXCELENCIA Y CALIDAD",
+    "SECOND-TITLE": "Nuestra filosofia",
+    "FIRST-IMG-DATA": "Una hermosa piscina hecha de cuarzo y al lado de una escalera de rocas",
+    "SECOND-IMG-DATA": "Una hermosa piscina hecha de madera",
+    "THIRD-IMG-DATA": "Una hermosa piscina hecha con una pequeña cascada de rocas",
+    "FOUR-IMG-DATA": "Una hermosa piscina en un patio hermoso"
+  },
+  "SERVICES-SECTION": {
+    "FIRST-TITLE": "Nuestros",
+    "SECOND-TITLE": "Servicios"
+  },
+  "REVIEWS-SECTION": {
+    "FIRST-TITLE": "NUESTROS FELICES",
+    "SECOND-TITLE": "CLIENTES"
+  },
+  "CONTACT-SECTION": {
+    "FIRST-TITLE": "Contactanos",
+    "NAME-PLACEHOLDER": "Ingresa tu nombre*",
+    "EMAIL-PLACEHOLDER": "Ingresa tu email*",
+    "TEXTAREA-PLACEHOLDER": "Cuerpo del mensaje*",
+    "BUTTON-TITLE": "Enviar tu mensaje",
+    "BUTTON-TEXT": "Enviar",
+    "IMG-DATA": "Imagen de una piscina en construcción",
+    "IMG-SUBTITLE": "Más que piscinas, son recuerdos, dejalo en nuestras manos y lo haremos realidad"
+  }
+}
