@@ -1,6 +1,6 @@
 import React from "react";
-import "../../styles/sections/MainSection.css";
-import { useBackgroundImage } from "../../hooks/useBackgroundImage";
+import "../../../styles/sections/MainSection/MainSection.css";
+import { useBackgroundImage } from "../../../hooks/useBackgroundImage";
 
 const MainSection = () => {
   const { currentBackgroundImage } = useBackgroundImage();
