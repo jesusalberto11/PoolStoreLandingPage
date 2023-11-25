@@ -1,7 +1,8 @@
 import React from "react";
 import "../../styles/sections/ReviewSection.css";
-import SectionTitle from "./SectionTitle";
 import CommonSection from "./CommonSection";
+import SectionTitle from "./SectionTitle";
+import ReviewItem from "./ReviewSection/ReviewItem";
 import { REVIEWS_DATA } from "../../helpers/reviewsData";
 
 const ReviewSection = () => {
@@ -11,16 +12,14 @@ const ReviewSection = () => {
       <div className="reviews-container">
         {REVIEWS_DATA.map(
           ({ id, imgSource, alt, username, description, rating }) => (
-            <div className="review-item" key={id}>
-              <div className="user-review-header">
-                <img src={imgSource} alt={alt} className="user-review-img" />
-                <div className="review-header-right-side">
-                  <p className="review-username">{username}</p>
-                  <div>{rating}</div>
-                </div>
-              </div>
-              <p className="user-review-description">{description}</p>
-            </div>
+            <ReviewItem
+              key={id}
+              imgSource={imgSource}
+              alt={alt}
+              username={username}
+              description={description}
+              rating={rating}
+            />
           )
         )}
       </div>
