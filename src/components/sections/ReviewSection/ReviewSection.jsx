@@ -1,9 +1,9 @@
 import React from "react";
-import "../../styles/sections/ReviewSection.css";
-import CommonSection from "./CommonSection";
-import SectionTitle from "./SectionTitle";
-import ReviewItem from "./ReviewSection/ReviewItem";
-import { REVIEWS_DATA } from "../../helpers/reviewsData";
+import "../../../styles/sections/ReviewSection/ReviewSection.css";
+import CommonSection from "../CommonSection";
+import SectionTitle from "../SectionTitle";
+import ReviewItem from "./ReviewItem";
+import { REVIEWS_DATA } from "../../../helpers/reviewsData";
 
 const ReviewSection = () => {
   return (

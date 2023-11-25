@@ -4,7 +4,7 @@ import AppHeader from "./components/layout/AppHeader";
 import FormSection from "./components/sections/FormSection";
 import MainSection from "./components/sections/MainSection";
 import PoolsGridSection from "./components/sections/PoolsGridSection";
-import ReviewSection from "./components/sections/ReviewSection";
+import ReviewSection from "./components/sections/ReviewSection/ReviewSection";
 import ServicesSection from "./components/sections/ServiceSection/ServicesSection";
 
 function App() {
