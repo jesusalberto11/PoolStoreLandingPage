@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/sections/ServiceItem.css";
+import "../../../styles/sections/ServiceSection/ServiceItem.css";
 
 const ServiceItem = ({ imgSource, alt, title }) => {
   return (

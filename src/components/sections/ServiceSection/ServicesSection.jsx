@@ -1,13 +1,13 @@
 import React from "react";
-import "../../styles/sections/ServicesSection.css";
-import CommonSection from "./CommonSection";
-import SectionTitle from "./SectionTitle";
+import "../../../styles/sections/ServiceSection/ServicesSection.css";
+import CommonSection from "../CommonSection";
+import SectionTitle from "../SectionTitle";
 import ServiceItem from "./ServiceItem";
 import ServiceFooterItem from "./ServiceFooterItem";
 import {
   SERVICES_DATA,
   SERVICES_FOOTER_DATA,
-} from "../../helpers/servicesData";
+} from "../../../helpers/servicesData";
 
 const ServicesSection = () => {
   return (

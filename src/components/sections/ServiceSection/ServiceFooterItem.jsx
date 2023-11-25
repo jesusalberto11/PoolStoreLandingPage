@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/sections/ServiceFooterItem.css";
+import "../../../styles/sections/ServiceSection/ServiceFooterItem.css";
 
 const ServiceFooterItem = ({ icon, title }) => {
   return (
