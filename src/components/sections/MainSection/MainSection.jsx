@@ -1,9 +1,11 @@
 import React from "react";
 import "../../../styles/sections/MainSection/MainSection.css";
 import { useBackgroundImage } from "../../../hooks/useBackgroundImage";
+import { useTranslation } from "react-i18next";
 
 const MainSection = () => {
   const { currentBackgroundImage } = useBackgroundImage();
+  const [t] = useTranslation("global");
 
   return (
     <section id="section-1" className="section-container">
@@ -12,20 +14,15 @@ const MainSection = () => {
         style={{ backgroundImage: `url(${currentBackgroundImage})` }}
       >
         <div className="main-section-left-side">
-          <h1 className="header-m1">
-            Más de 10 años en calidad y experiencia en piscinas
-          </h1>
-          <p>
-            Nos encargamos de construir la piscina de tus sueños en 60 días o
-            menos
-          </p>
+          <h1 className="header-m1">{t("MAIN-SECTION.MAIN-SECTION-TITLE")}</h1>
+          <p>{t("MAIN-SECTION.MAIN-SECTION-SUBTITLE")}</p>
           <a
             type="button"
             className="contact-button"
-            title="Botón de ir a solicitar cotización gratuita"
+            title={t("MAIN-SECTION.CONTACT-BUTTON-TITLE")}
             href="#section-4"
           >
-            Solicita tu cotización
+            {t("MAIN-SECTION.CONTACT-BUTTON-TITLE")}
           </a>
         </div>
       </div>
