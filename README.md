@@ -9,6 +9,7 @@ This repository contains a landing page about a pool company, it was created usi
 
 <ul>
 <li>React + Vite</li>
+<li><a href="https://react.i18next.com/">React-i18next</a></li>
 <li>HTML</li>
 <li>CSS</li>
 <li>Javascript</li>
