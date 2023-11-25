@@ -2,53 +2,51 @@ import React from "react";
 import "../../styles/layout/AppFooter.css";
 import SimpleButton from "../shared/SimpleButton";
 import { SVG_ICONS } from "../../helpers/svgIcons";
+import { useTranslation } from "react-i18next";
 
 const AppFooter = () => {
+  const [t] = useTranslation("global");
+
   return (
     <footer className="footer">
       <div className="footer-left-side">
-        <h3>SOBRE NOSOTROS</h3>
-        <p>
-          Somos lideres en la creación, reparación, remodelación y protección de
-          piscinas en todo Colombia. Enclavados en el corazón del país, nos
-          enorgullece ofrecer servicios innovadores que transformarán tu espacio
-          acuático en un oasis de serenidad y diversión.
-        </p>
+        <h3>{t("FOOTER.ABOUT-US-TITLE")}</h3>
+        <p>{t("FOOTER.ABOUT-US-DESCRIPTION")}</p>
       </div>
       <div className="contact-info">
         <div className="footer-center-side">
-          <h3>INFORMACIÓN GENERAL</h3>
-          <p>Conócenos</p>
-          <p>Preguntas frecuentes</p>
-          <p>Política de privacidad</p>
-          <p>PQRS</p>
+          <h3>{t("FOOTER.GENERAL-INFO")}</h3>
+          <p>{t("FOOTER.MEET-US")}</p>
+          <p>{t("FOOTER.FREQUENT-QUESTIONS")}</p>
+          <p>{t("FOOTER.PRIVACY-POLICY")}</p>
+          <p>{t("FOOTER.PQRS")}</p>
         </div>
         <div className="footer-right-side">
-          <h3>CONTACTO</h3>
+          <h3>{t("FOOTER.CONTACT-TITLE")}</h3>
           <p>
-            <strong>Teléfono Fijo:</strong> +57 4468996
+            <strong>{t("FOOTER.LANDLINE-PHONE")}</strong> +57 4468996
           </p>
           <p>
-            <strong>Móvil:</strong> +57 312 525 1219
+            <strong>{t("FOOTER.PHONE")}</strong> +57 312 525 1219
           </p>
           <p>
-            <strong>WhatsApp:</strong> +57 302 521 1319
+            <strong>{t("FOOTER.WHATSAAP")}</strong> +57 302 521 1319
           </p>
           <div className="footer-social-media-buttons-container">
             <SimpleButton
-              title={"Botón de ir a nuestra pagina de Facebook"}
+              title={t("FOOTER.FACEBOOK-BUTTON-DATA")}
               icon={SVG_ICONS.FACEBOOK}
             />
             <SimpleButton
-              title={"Botón de ir a nuestro chat de Whatsaap"}
+              title={t("FOOTER.WHATSAAP-BUTTON-DATA")}
               icon={SVG_ICONS.WHATSAAP}
             />
             <SimpleButton
-              title={"Botón de ir a nuestra pagina de Instagram"}
+              title={t("FOOTER.INSTAGRAM-BUTTON-DATA")}
               icon={SVG_ICONS.INSTAGRAM}
             />
             <SimpleButton
-              title={"Botón de ir a nuestra pagina de Twitter"}
+              title={t("FOOTER.TWITTER-BUTTON-DATA")}
               icon={SVG_ICONS.TWITTER}
             />
           </div>
